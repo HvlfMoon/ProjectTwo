@@ -31,10 +31,6 @@ html {
 }
 
 body {
-  /*width: 1300px;*/
-  width: 80vw;
-  min-width: 1000px;
-  margin: 48px auto;
   background-color: #0f0e17;
 }
 
@@ -50,13 +46,38 @@ body {
   width: 30vw;
 }
 
+.BGImage {
+  background-image: url("https://cdn.sanity.io/images/7p2whiua/production/e4365302f0178e715319d3c5b2e566b387e3ff4e-2048x1536.jpg");
+  max-width: 100%;
+  height: 60vw;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.MainTitle {
+  margin: 60px;
+  width: 40vw;
+}
+
+.Subtitle {
+  width: 30vw;
+  background-color: #0066b3;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+}
 
 h1{
     font-family: "Zen Dots", sans-serif;
-    font-weight: 700;
-    font-size: 3.5rem;
+    font-weight: bolder;
+    font-size: 5rem;
     margin-bottom: 6px;
     color: #fffffe;
+    
 }
 
 h2 {
@@ -78,13 +99,14 @@ h4 {
 p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  margin: 1.5rem;
   color: #fffffe
 }
 
 .aquanaut2 {
-  width: 0vw;
+  width: 50vw;
   float: left;
-  margin: 25px;
+  margin: 10px 25px 1px 5px;
   box-sizing: border-box;
 }
 
