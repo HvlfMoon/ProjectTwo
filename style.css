@@ -7,6 +7,7 @@ html {
   color: #222;
   line-height: 1.4;
   font-size: 16pt;
+  font-family: Verdana, sans-serif;
 }
 
 body {
@@ -18,13 +19,15 @@ body {
 
 }
 
-p{
+.Text{
   line-height: 36px;
   padding-bottom: 12px;
+  flex-direction: column;
+  column-count: 2;
 }
 
 h1{
-    font-family: palatino, serif;
+    font-family: Verdana, sans-serif;
     font-weight: 700;
     margin-bottom: 6px;
 }
@@ -36,20 +39,9 @@ h2 {
   font-weight: 400;
 }
 
-
-
-@media only screen and (max-width: 480px) {
-  html{
-    font-size: 16px;
-    color: #F2F2F2;
-    background-color: #262626;
-    text-align: center;
-  }
-
-  body{ 
-    width: 75vw;
-    min-width: 200px;
-  }
+h4 {
+  Font-size: 30px;
+  margin: 10px 5px;
 }
 
 
