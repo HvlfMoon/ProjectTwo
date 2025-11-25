@@ -5,6 +5,10 @@
       <title>NASA Spinoff</title>
       <meta name="description" content="Describe your website here."/>
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+      <!--FONTS--!>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Zen+Dots&display=swap" rel="stylesheet">
       <!-- Defines preview content that will be displayed when your site is linked on twitter, reddit, etc-->
       <meta name="robots" content="index,follow" />
       <meta property="og:title" content="Your Title"/>
@@ -28,94 +32,88 @@
    <body>
       <!-- Navbar and Logo --!>
       <header>
-         <div class="logo">SpinOff</div>
-         <div class="navbar">
-            <nav id="top">
-               <a href="#home">Home</a>
-               <a href="#about">About</a>
-               <a href="#Archive">Archive</a>
+         <div class="logo">
+            <p>NASA SPINOFF</p>
          </div>
+         <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Archive</a>
          </nav>
-      </header>
+      </header>   
       <main>
-
       
 <!--Main title and Subtitle--!>
       <div class="BGImage">
-            <section id="TheAquanaut">
-               <h1>Space Robots Take A Deep Dive</h1>
+               <h1 class="MainTitle">Space Robots Take A Deep Dive</h1>
                <h2 class="Subtitle">Aquanaut, built on lessons from NASA's robot astronaut, will cut costs for ocean industries</h2>
       </div>
    
       
       <!-- Article Nav --!>
-            <div class="ArticleNav">
-               <h4 class="InThisArtcle"> In This Article...</h4>
-         <nav>
-               <a href="#TheAquanaut">The Aquanaut</a>
-               <a href="#CuttingTheCord">Cutting The Cord</a>
-               <a href="#AFloatingFactotum">A Floating Factotum</a>
-      `  <nav/>
-            </div>
 
-      <!--Article--!>
-
-      <div class="aquanaut2">
-               <img src="https://laughingsquid.com/wp-content/uploads/2019/07/Aquanaut.jpg?w=768"
-                  alt= "NASA Aquanaut Robot waving" width="50%" height="100%">
+      <div class="ArticleNav">
+         <div class="InThis"> 
+            <p> In This Article:</p>
+         </div>    
+         <nav class="JumpTo">
+            <a href="#TheAquanaut">The Aquanaut</a>
+            <a href="#CuttingTheCord">Cutting The Cord</a>
+            <a href="#AFloatingFactotum">A Floating Factotum</a>
+         </nav>
       </div>
       
-         <h4> The Aquanaut </h4>
-            <p>
-               What’s the difference between deep space and the deep sea? For a robot, the answer is: not much. 
-               Both environments are harsh and demanding, and, more importantly, both are far removed from the machine’s operator.
-               That’s why a team of engineers who developed robots at NASA’s Johnson Space Center in Houston have decided to apply their 
-               expertise to designing a shape-changing submersible robot that promises to dramatically cut costs for a host of maritime industries.
-            </p>
-            <p>
-               “What NASA really taught us to do is to put together robust software autonomy with a capable hardware morphology and deploy it in a remote setting,” 
-               said Nic Radford, founder, chairman, president, and CEO of Houston-based Nauticus Robotics Inc. During his 14 years at Johnson, Radford was, among other
-               roles, the deputy project manager and chief engineer for design and construction of the humanoid space robot Robonaut 2. Now, more than 20 engineers who
-               worked on that project and other NASA robots have joined the 80-person team he’s put together at Nauticus. Whether a robot is working in space or on the 
-               ocean floor, the biggest commonality is that the operator is far away, with limited communication and knowledge of the robot’s surroundings, he said.
-               “Even if you’re putting it on the space station and controlling it from the ground, there’s not a high-speed data network. Talking to the space station 
-               to control the robot is more akin to using dial-up.” So the robot has to be able to sense and understand its environment, navigating obstacles and manipulating
-               objects with minimal operator input.
-            </p>
-         </section>
+<!--Article--!>
+      <!--The Aquanaut Section--!>
       
-         <div class="Section1">
+         <section id="TheAquanaut"></section>
       
-            <p>
-               For Robonaut 2, this meant Radford’s team at Johnson had to develop not just advanced robotic hardware like tendon-powered hands, elastic joints, and
-               miniaturized load cells, but also vision systems, force sensors, and infrared sensors to gather information, as well as image-recognition software, 
-               control algorithms, and ultra-high-speed joint controllers to process and act on that data. 
-            </p>
-            <p> 
-               Built under a partnership between NASA and General Motors (GM), Robonaut 2 was billed as an astronaut assistant and was proven aboard the
-               International Space Station. But it was also a demonstration and testbed for all these advanced robotic systems. NASA is interested in developing
-               robots to carry out dangerous work in space, run “precursor missions” to lay the groundwork for the arrival of human astronauts, and maintain
-               facilities like the planned lunar Gateway station when astronauts aren’t around. GM, meanwhile, wanted to explore robotics that could assist 
-               factory workers. The project resulted in about 50 patents, several of which have already been commercialized in the form of a robotic glove that
-               GM and others are now using in the workplace <i>(Spinoff 2022)</i>.
-            </p>
+         <div class="aquanaut2">
+         
+               <h4> The Aquanaut </h4>
+                  <p>
+                     What’s the difference between deep space and the deep sea? For a robot, the answer is: not much. 
+                     Both environments are harsh and demanding, and, more importantly, both are far removed from the machine’s operator.
+                     That’s why a team of engineers who developed robots at NASA’s Johnson Space Center in Houston have decided to apply their 
+                     expertise to designing a shape-changing submersible robot that promises to dramatically cut costs for a host of maritime industries.
+                     “What NASA really taught us to do is to put together robust software autonomy with a capable hardware morphology and deploy it in a remote setting,” 
+                     said Nic Radford, founder, chairman, president, and CEO of Houston-based Nauticus Robotics Inc. During his 14 years at Johnson, Radford was, among other
+                     roles, the deputy project manager and chief engineer for design and construction of the humanoid space robot Robonaut 2. Now, more than 20 engineers who
+                     worked on that project and other NASA robots have joined the 80-person team he’s put together at Nauticus. Whether a robot is working in space or on the 
+                     ocean floor, the biggest commonality is that the operator is far away, with limited communication and knowledge of the robot’s surroundings, he said.
+                  </p>
+                  <img class="Image1" src="https://laughingsquid.com/wp-content/uploads/2019/07/Aquanaut.jpg?w=768"
+                  alt= "NASA Aquanaut Robot waving" width="50%" height="100%">
+                  <p>
+                     “Even if you’re putting it on the space station and controlling it from the ground, there’s not a high-speed data network. Talking to the space station 
+                     to control the robot is more akin to using dial-up.” So the robot has to be able to sense and understand its environment, navigating obstacles and manipulating
+                     objects with minimal operator input. For Robonaut 2, this meant Radford’s team at Johnson had to develop not just advanced robotic hardware like tendon-powered hands, elastic joints, and
+                     miniaturized load cells, but also vision systems, force sensors, and infrared sensors to gather information, as well as image-recognition software, 
+                     control algorithms, and ultra-high-speed joint controllers to process and act on that data. 
+                     Built under a partnership between NASA and General Motors (GM), Robonaut 2 was billed as an astronaut assistant and was proven aboard the
+                     International Space Station. But it was also a demonstration and testbed for all these advanced robotic systems. NASA is interested in developing
+                     robots to carry out dangerous work in space, run “precursor missions” to lay the groundwork for the arrival of human astronauts, and maintain
+                     facilities like the planned lunar Gateway station when astronauts aren’t around. GM, meanwhile, wanted to explore robotics that could assist 
+                     factory workers. The project resulted in about 50 patents, several of which have already been commercialized in the form of a robotic glove that
+                     GM and others are now using in the workplace <i>(Spinoff 2022)</i>.
+                  </p>
          </div>
 
-   <p class="pullquote">
-      <i>“Space is amazing because it feels existential… But it turns out there are also many real challenges right here beneath the ocean.”</i> 
-      Nic Radford, Nauticus Robotics
-   </p>
-
-      
-         <div class="Section3">
-               <div class="aquanaut3">
-               <img src="https://www.nasa.gov/wp-content/uploads/2022/08/nauticus_2.jpg"
-                  alt= "NASA Aquanaut Underwater" width="50%" height="100%">
-            </div>
-         </div>
-      
-            <section id="CuttingTheCord">
+   <div class="pullquote">
+      <h5 class="quote">
+         <i>“Space is amazing because it feels existential… But it turns out there are also many real challenges right here beneath the ocean.”</i>
+      </h5>
+      <h5 class="quoted">
+         -Nic Radford, Nauticus Robotics
+      </h5>
+   </div> 
+ 
+<!--Cutting The Cord Section--!>
+         <section id="CuttingTheCord"></section>
+         <div class="aquanaut3">
                <h4> Cutting The Cord</h4>
+               <img class="image2" src="https://www.nasa.gov/wp-content/uploads/2022/08/nauticus_2.jpg"
+                  alt= "NASA Aquanaut Underwater" width="50%" height="100%">
                <p>
                   Unlike a robot in space, deep-sea robots that service offshore oil wells or wind turbines, for example, can be connected to an operator with a 
                   cable to allow high-speed data transfer and close control. But Radford noted that this comes at the high price of staffing and operating a huge
@@ -127,41 +125,43 @@
                   to test the robot in 2019, the team returned to Johnson and dropped it in the giant astronaut training pool in the center’s Neutral Buoyancy Lab, where
                   it could swim and try out its systems in full view of operators and cameras. 
                </p>
-            </section>
          </div>
-         <div class="Section4">
+      
+            <section id="AFloatingFactotum"></section>
             <div class="aquanaut4">
-               <img src="https://www.nasa.gov/wp-content/uploads/2022/08/nauticus_6.png?resize=900,540"
-                  alt= "NASA Aquanaut Boat" width="50%" height="100%">
+                  <h4>A Floating Factotum</h4>
+                  <p>
+                     Aquanaut is designed to be versatile, and Radford points out that there is no shortage of different jobs for a subsea robot. The best-known industry that
+                     would benefit from an underwater robotic worker is offshore oil and gas production, which requires a huge amount of underwater equipment and support structure,
+                     all of which need inspection and maintenance. But the fastest-growing is wind power. About 25,000 offshore turbines are planned for operation by 2030, Radford
+                     said, and all of them will require servicing and inspection. With wild fish populations in steep decline, aquaculture – the farming of fish, shrimp, and other
+                     seafood – has to grow significantly if there’s to be enough protein to feed the world, and the nets and cages in those underwater farms need regular cleaning
+                     and mooring chain inspections, Radford said. Other potential jobs include port management, maintaining subsea telecommunication cables, offshore mining of 
+                     rare materials, and defense applications. “The ocean is interlaced into everything we do, but it’s not at the front of people’s minds,” he said, estimating a
+                     total maritime economy of about $2.5 trillion.
+                  </p>
+                  <img class="image3" src="https://www.nasa.gov/wp-content/uploads/2022/08/nauticus_6.png?resize=900,540"
+                     alt= "NASA Aquanaut Boat" width="50%" height="100%">
+                  <p> 
+                     By early 2022, Nauticus had produced two Aquanauts and planned to have 20 more built in the following three years, along with several custom variants. 
+                     The company primarily plans to use them to provide affordable services to ocean industries, rather than selling them. For operations that still require 
+                     some surface support, or just to transport the robots or other cargo, Nauticus is building an autonomous boat called Hydronaut, which can be operated 
+                     remotely or navigate on its own. And the company licenses its robotics control software – called toolKITT in a nod to the artificially intelligent car 
+                     from the 1980s television show Knight Rider – to other robotics companies. By applying space solutions to maritime problems, Radford and his team plan to
+                     make the Nauticus name synonymous with ocean robotics, he said. “Space is amazing because it feels existential – it’s way out there, and people want to 
+                     explore it. But it turns out there are also many real challenges right here beneath the ocean, and we could stand to do more innovating in the ‘blue economy.’”
+                  </p>
             </div>
-            <section id="AFloatingFactotum">
-               <h4>A Floating Factotum</h4>
-               <p>
-                  Aquanaut is designed to be versatile, and Radford points out that there is no shortage of different jobs for a subsea robot. The best-known industry that
-                  would benefit from an underwater robotic worker is offshore oil and gas production, which requires a huge amount of underwater equipment and support structure,
-                  all of which need inspection and maintenance. But the fastest-growing is wind power. About 25,000 offshore turbines are planned for operation by 2030, Radford
-                  said, and all of them will require servicing and inspection. With wild fish populations in steep decline, aquaculture – the farming of fish, shrimp, and other
-                  seafood – has to grow significantly if there’s to be enough protein to feed the world, and the nets and cages in those underwater farms need regular cleaning
-                  and mooring chain inspections, Radford said. Other potential jobs include port management, maintaining subsea telecommunication cables, offshore mining of 
-                  rare materials, and defense applications. “The ocean is interlaced into everything we do, but it’s not at the front of people’s minds,” he said, estimating a
-                  total maritime economy of about $2.5 trillion.
-               </p>
-               <p> 
-                  By early 2022, Nauticus had produced two Aquanauts and planned to have 20 more built in the following three years, along with several custom variants. 
-                  The company primarily plans to use them to provide affordable services to ocean industries, rather than selling them. For operations that still require 
-                  some surface support, or just to transport the robots or other cargo, Nauticus is building an autonomous boat called Hydronaut, which can be operated 
-                  remotely or navigate on its own. And the company licenses its robotics control software – called toolKITT in a nod to the artificially intelligent car 
-                  from the 1980s television show Knight Rider – to other robotics companies. By applying space solutions to maritime problems, Radford and his team plan to
-                  make the Nauticus name synonymous with ocean robotics, he said. “Space is amazing because it feels existential – it’s way out there, and people want to 
-                  explore it. But it turns out there are also many real challenges right here beneath the ocean, and we could stand to do more innovating in the ‘blue economy.’”
-               </p>
-            </section>
-         </div>
       </main>
    <footer>
-      <a href="#"> Contact Us
-      <a href="#"> Work For Us
-      <p class="copyright"> Content provided by NASA. Website made by Dean M.T.</p>
+      <div class="contact">
+         <a href="#"> Contact Us</a>
+         <a href="#"> Work For Us</a>
+      </div>
+      <div class="sources">
+         <a href="https://spinoff.nasa.gov/sites/default/files/2023-01/NASA-Spinoff-2023.pdf">NASA Spinoff 2023</a>
+         <a href="https://spectrum.ieee.org/meet-aquanaut-the-underwater-transformer">Image Source</a>
+      </div>
    </footer>
    </body>
 </html>
